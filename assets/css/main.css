@@ -113,6 +113,7 @@ input, select, textarea {
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
+			color: #484d55;
 			text-decoration: none;
 		}
 
@@ -171,7 +172,8 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table, blockquote, form {
-		margin-bottom: 2em;
+		margin-bottom: 1em;
+		color: #484d55;
 	}
 
 /* Container */
@@ -1456,6 +1458,11 @@ input, select, textarea {
 		padding: 3em 0 3em 0;
 	}
 
+		header.style1 h1 {
+			font-size: 1.5em;
+			color: #d96760;
+		}
+
 		header.style1 h2 {
 			font-weight: 700;
 			font-size: 2em;
@@ -1583,7 +1590,11 @@ input, select, textarea {
 	form ::-moz-focus-inner {
 		border: 0;
 	}
-
+	.image.avatar img {
+		margin-bottom: 20px;
+		border-radius: 100%;
+		height: 5cm;
+	  }
 /* Image */
 
 	.image {
@@ -1849,12 +1860,23 @@ input, select, textarea {
 
 		}
 
-		.feature-list h3 {
+		.feature-list h2 {
 			color: #e97770 !important;
+			margin: -0.35em 0 0.75em 0;
+			font-size: 1.5em;
+			letter-spacing: 0.05em;
+		}
+
+		/* .feature-list h3 {
+			color: #ffffff !important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
 		}
+
+		.feature-list p {
+			color: #ffffff !important;
+		} */
 
 			.feature-list h3:before {
 				display: block;
@@ -2061,7 +2083,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("../../images/banner.jpg") center center;
+		/* background: url("../../images/banner.jpg") center ce nter; */
 		background-size: cover;
 		padding: 0;
 	}
@@ -2098,13 +2120,12 @@ input, select, textarea {
 		}
 
 		#logo p {
-			color: #eee;
-			color: rgba(255, 255, 255, 0.5);
+			color: #484d55;
 			text-transform: uppercase;
 			margin: 1.25em 0 0 0;
 			display: block;
 			letter-spacing: 0.2em;
-			font-size: 0.9em;
+			font-size: 1em;
 		}
 
 /* Nav */
@@ -2222,26 +2243,41 @@ input, select, textarea {
 		}
 
 		#intro p.style2 {
-			font-weight: 700;
+			font-weight: 500;
 			color: #fff;
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
-			font-size: 2.75em;
+			/* font-size: 0.1em; */
+			font-size: xx-small;
 			letter-spacing: 0.075em;
 			line-height: 1.35em;
 			padding: 1em 0 1em 0;
 			margin-bottom: 1em;
 		}
 
-			#intro p.style2 a {
-				color: inherit;
-				text-decoration: none;
-			}
+		#intro p.style2 a {
+			color: inherit;
+			text-decoration: none;
+		}
 
 		#intro p.style3 {
+			color: #fff;
+			border-radius: 0.35em;
+			padding: 1em 0 1em 0;
+			margin-bottom: 1em;
+			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+			letter-spacing: 0.075em;
+			line-height: 1.35em;
 			font-size: 1.1em;
 			width: 48em;
 			margin: 0 auto;
+		}
+
+		#intro p.style4 {
+			font-weight: 0;
+			font-size: 1.2em;
+			color: #fff;
+			letter-spacing: 0.075em;
 		}
 
 /* Features */
@@ -2268,6 +2304,15 @@ input, select, textarea {
 		}
 
 /* Main */
+
+/* Footer */
+/* 
+	#background {
+		background: #282b34 url("images/overlay.png");
+		color: #eee;
+		color: rgba(255, 255, 255, 0.5);
+		padding-bottom: 6em;
+	} */
 
 /* Footer */
 
@@ -2524,6 +2569,8 @@ input, select, textarea {
 
 			#nav {
 				display: none;
+				color: #1f232b;
+				background-color: #1f232b;
 			}
 
 		/* Logo */
@@ -2949,6 +2996,7 @@ input, select, textarea {
 
 				#footer header.style1 {
 					padding-bottom: 0;
+					color: #ffffff;
 					margin-bottom: 2em;
 					border-bottom: 0;
 				}
@@ -2983,3 +3031,4 @@ input, select, textarea {
 						}
 
 	}
+	
