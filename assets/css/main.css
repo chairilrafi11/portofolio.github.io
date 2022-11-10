@@ -1530,7 +1530,7 @@ input, select, textarea {
 		-webkit-transition: all .25s ease-in-out;
 		-ms-transition: all .25s ease-in-out;
 		transition: all .25s ease-in-out;
-		-webkit-appearance: none;
+		/* -webkit-appearance: initial; */
 		display: block;
 		border: 0;
 		background: #eee;
